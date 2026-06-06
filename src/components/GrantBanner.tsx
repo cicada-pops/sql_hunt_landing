@@ -3,7 +3,7 @@ export default function GrantBanner() {
     <section className="py-12 px-6 border-t border-gray-800/60">
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-8">
         <img
-          src="/head_logo_fasie.png"
+          src={`${import.meta.env.BASE_URL}head_logo_fasie.png`}
           alt="Фонд содействия инновациям"
           className="h-20 w-auto flex-shrink-0 opacity-90"
         />
