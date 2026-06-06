@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Search, ChevronDown, ExternalLink } from 'lucide-react';
+import { Search, ChevronDown } from 'lucide-react';
 
 const SQL_LINES = [
   "SELECT p.name FROM people p JOIN alibis a ON p.id = a.person_id WHERE a.status = 'unconfirmed';",
@@ -81,9 +81,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
           <a
-            href="https://sqlhunt.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#pricing"
             className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-gray-950 font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 shadow-lg shadow-amber-500/20"
           >
             <Search className="w-5 h-5" />
@@ -97,15 +95,9 @@ export default function Hero() {
           </a>
         </div>
 
-        <a
-          href="https://sqlhunt.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-sm text-gray-600 hover:text-amber-400 transition-colors font-mono"
-        >
+        <span className="inline-flex items-center gap-1.5 text-sm text-gray-600 font-mono">
           sqlhunt.com
-          <ExternalLink className="w-3.5 h-3.5" />
-        </a>
+        </span>
 
         <div className="mt-14 grid grid-cols-3 gap-8 max-w-lg mx-auto">
           {[

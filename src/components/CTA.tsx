@@ -21,13 +21,11 @@ export default function CTA() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://sqlhunt.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#pricing"
                 className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-gray-950 font-bold px-10 py-4 rounded-xl transition-all hover:scale-105 shadow-lg shadow-amber-500/25 text-lg"
               >
                 <Search className="w-5 h-5" />
-                Открыть sqlhunt.com
+                Открыть первое дело
               </a>
             </div>
 

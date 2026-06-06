@@ -1,4 +1,4 @@
-import { Terminal, ExternalLink } from 'lucide-react';
+import { Terminal } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -26,15 +26,9 @@ export default function Footer() {
           <a href="#pricing" className="hover:text-gray-400 transition-colors">Тарифы</a>
         </div>
 
-        <a
-          href="https://sqlhunt.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-amber-400 transition-colors font-mono"
-        >
+        <span className="flex items-center gap-1.5 text-sm text-gray-500 font-mono">
           sqlhunt.com
-          <ExternalLink className="w-3.5 h-3.5" />
-        </a>
+        </span>
       </div>
     </footer>
   );

@@ -125,9 +125,7 @@ export default function Pricing() {
               </ul>
 
               <a
-                href="https://sqlhunt.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#cta"
                 className={`w-full text-center px-6 py-3 rounded-xl transition-all text-sm font-semibold ${plan.ctaStyle}`}
               >
                 {plan.cta}
